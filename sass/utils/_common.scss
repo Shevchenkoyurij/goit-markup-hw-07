@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: $main-font;
 }
 img {
   display: block;
@@ -34,7 +34,7 @@ p {
 .comands-titles {
   margin-top: 0;
   margin-bottom: 50px;
-  font-family: Roboto;
+  font-family: $main-font;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -46,7 +46,7 @@ p {
   padding-top: 0px;
   padding-bottom: 0px;
 
-  font-family: Roboto;
+  font-family: $main-font;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -55,12 +55,12 @@ p {
   letter-spacing: 0.03em;
 }
 h1 {
-  font-family: Roboto;
+  font-family: $main-font;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  color: #ffffff;
+  color: $pimary-bg-color;
 }
 
 h2 {
@@ -68,15 +68,15 @@ h2 {
 
   padding-right: 24px;
   font-size: 18px;
-  font-family: Roboto;
+  font-family: $main-font;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-  color: #212121;
+  color: $page-hero-text;
 }
 h3 {
-  font-family: Roboto;
+  font-family: $main-font;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -84,7 +84,7 @@ h3 {
   cursor: pointer;
 }
 h4 {
-  font-family: Roboto;
+  font-family: $main-font;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -93,7 +93,7 @@ h4 {
 .claints {
   padding-top: 94px;
   padding-bottom: 50px;
-  font-family: Roboto;
+  font-family: $main-font;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
