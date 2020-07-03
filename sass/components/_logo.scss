@@ -3,3 +3,46 @@
   font-size: 26px;
   line-height: 31px;
 }
+.logotip {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logotip-accent {
+  color: var(--main-accent);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+  text-decoration: none;
+}
+.post-footer .logotip {
+  margin-bottom: 10px;
+  padding: 0px;
+  color: antiquewhite;
+}
+/* Logo  шрифт*/
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 31px;
+}
+.logo2 {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 31px;
+}
+/* Logo  цвет*/
+.logo {
+  color: $main-accent;
+}
+.logo2 {
+  color: #000000;
+}
+.logo:hover {
+  --new-accent: rgb(0, 0, 0)
+  color: var($new-accent);
+} 

@@ -1,0 +1,68 @@
+.top-best {
+  height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: grey;
+  background-image: linear-gradient(
+      to right,
+      var(--bg-transparency),
+      var(--bg-transparency)
+    ),
+    url(../images/Headerimg.jpg);
+  background-position: center;
+  text-align: center;
+}
+.best {
+  margin-top: 0px;
+  margin-bottom: 46px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  min-width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border: var(--main-accent);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--pimary-bg-color);
+  background-color: var(--main-accent);
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #f5f4fa;
+  color: var(--page-hero-text);
+}
+a {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+/*Site nav*/
+.logo:hover {
+  --new-accent: rgb(0, 0, 0)
+  color: var(--new-accent);
+}
