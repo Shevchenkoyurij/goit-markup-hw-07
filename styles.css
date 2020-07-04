@@ -39,28 +39,7 @@ img {
 body {
   font-family: Roboto, sans-serif;
 }
-/* тимчасовий колір*/
-/* .page-header {
-  margin-left: auto;
-  margin-right: auto;
-} */
-/* .main-nav{
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  height: 80px;
-  width: 1200px;
-  border-bottom: 1px solid #ECECEC
 
-} */
-
-/* Logo  шрифт*/
-/* .logo{
-  font-family: Raleway, sans-serif;
-font-size: 26px;
-line-height: 31px;
-} */
 .logo2 {
   font-family: Raleway, sans-serif;
   font-size: 26px;
@@ -81,17 +60,6 @@ line-height: 31px;
   fill: #afb1b8;
   transition: fill 250ms var(--cubic);
 }
-
-/* .conteiner {
-margin-left: auto;
-margin-right: auto;
-width: 1200px;
-  
-padding-right: 15px;
-padding-left: 15px;  
-} */
-
-/* Фоновая картинка с людьми  */
 
 .top-best {
   height: 600px;
@@ -128,201 +96,7 @@ padding-left: 15px;
   text-transform: uppercase;
 }
 
-/* Применится ко всем абзацам на странице */
-
-/* Секция Чем мы занимаемся */
-
-/* Team css options */
-
-/*Страница студия*/
-
-/*Чем мы занимаемся*/
-
-/* Страница портфолио*/
-
-.magik-button {
-  margin-top: 93px;
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-.links:hover,
-.links:focus {
-  color: var(--pimary-bg-color);
-  background-color: var(--main-accent);
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 3px 1px rgba(0, 0, 0, 0.1);
-}
-
-.links {
-  height: 38px;
-  padding-left: 22px;
-  padding-right: 22px;
-  border-radius: 4px;
-  border: 1px solid transparent;
-  cursor: pointer;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.flex-element:hover .services,
-.flex-element:focus .services {
-  transform: translateY(0);
-}
-.content-img {
-  position: relative;
-  overflow: hidden;
-  background-color: #ffffff;
-}
-
-.services {
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 63px 24px;
-
-  pointer-events: none;
-  font-size: 18px;
-  line-height: 1.56;
-  color: var(--pimary-bg-color);
-  background-color: rgba(33, 150, 243, 0.9);
-  transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.top-conteiner {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.stop {
-  padding-left: 0px;
-  cursor: pointer;
-  padding-bottom: 30px;
-  /* margin-right: 30px; */
-  margin-bottom: 30px;
-  width: calc((100% - 1px) / 3);
-}
-
-.flex-element {
-  position: relative;
-  overflow: hidden;
-  margin-right: 30px;
-  border: 1px solid #eeeeee;
-  border-radius: 5px;
-  list-style: none;
-}
-.flex-element:nth-child(3n) {
-  margin-right: 30;
-}
-.flex-element .names {
-  padding-top: 20px;
-  padding-left: 24px;
-}
-.flex-element:hover {
-  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    0px 1px 1px rgba(0, 0, 0, 0.12);
-}
-.names {
-  padding-left: 24px;
-  margin-bottom: 4px;
-  padding-left: 24px;
-  padding-right: 24px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
-  color: #212121;
-}
-.services {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 28px;
-}
-
-/* Применится ко всем ссылкам на странице */
-
-/* .active .link::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  top: 37px;
-  left: 0;
-  margin-top: 27px;
-  background: var(--main-accent);
-  border-radius: 2px;
-} */
-
-.site-nav .link {
-  color: var(--primary-text-color);
-
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  color: var(--primary-text-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.auth-nav .link {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-
-  color: #757575;
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-}
-_________________________________________
-/* .site-nav {
-  display: flex;
-  margin-left: 85px;
-} */
-/* .site-nav li{
-  margin-right: 50px;
-  display: block;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-.site-nav .li:not(:last-child){
-  margin-right: 50px;
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: #2196f3;
-} */
-______________________________________
-/* .auth-nav {
-display: flex;
-align-items: center; 
-margin-left: auto;
-fill: $new-accent;
-transition: fill 250ms var(--cubic), color 250ms var(--cubic);
- 
-} */
-.auth-nav .link + .link {
+/* .auth-nav .link + .link {
   margin-left: 30px;
 }
 .auth-nav .link:hover,
@@ -341,8 +115,8 @@ transition: fill 250ms var(--cubic), color 250ms var(--cubic);
 
 .auth-nav .smartphone {
   transition: fill 250ms var(--cubic);
-}
-__________________________ .contacts-link {
+} */
+.contacts-link {
   display: flex;
   margin-right: 30px;
   transition-property: color, fill;
