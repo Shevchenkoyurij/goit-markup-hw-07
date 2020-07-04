@@ -32,3 +32,145 @@ h4 {
   font-size: 16px;
   line-height: 19px;
 }
+.waring {
+  margin-top: 30;
+  margin-bottom: 0;
+}
+.function {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  list-style: none;
+}
+.function .degris {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.function .waring {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.function .text {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.function .degris + .degris {
+  margin-left: 30px;
+}
+.work-title {
+  margin-top: 0px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: $new-accent;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.work-title1 {
+  margin-top: 10px;
+  margin-bottom: 0;
+
+  color: $new-accent;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.feature-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background-color: $secondary-bg-color;
+}
+.comands-titles {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  /* outline: 2px solid tomato; */
+}
+
+.title {
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+a {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+.logo:hover {
+  $new-accent: rgb(0, 0, 0);
+  color: $new-accent;
+}
+.product {
+  display: flex;
+  padding-left: 0px;
+}
+.product .product-item:not(:last-child) {
+  margin-right: 30px;
+}
+.product .product-title {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+
+  margin: 0px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  color: $pimary-bg-color;
+  background: rgba(47, 48, 58, 0.8);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+.product-item {
+  position: relative;
+  display: block;
+}
+.doing {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
