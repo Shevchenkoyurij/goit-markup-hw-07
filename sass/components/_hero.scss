@@ -1,0 +1,30 @@
+.top-best {
+  height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: grey;
+  background-image: linear-gradient(
+      to right,
+      $bg-transparency,
+      $bg-transparency
+    ),
+    url(../images/Headerimg.jpg);
+  background-position: center;
+  text-align: center;
+}
+.best {
+  margin-top: 0px;
+  margin-bottom: 46px;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
