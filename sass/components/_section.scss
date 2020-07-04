@@ -254,3 +254,38 @@ a {
   background-color: $main-accent;
   --color1: #ffffff;
 }
+.claints {
+  padding-top: 94px;
+  padding-bottom: 50px;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+.claints-list {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+.icon {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  cursor: pointer;
+  fill: $svg-color;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon:hover,
+.icon:focus {
+  border: 1px solid $main-accent;
+
+  fill: $main-accent;
+}
