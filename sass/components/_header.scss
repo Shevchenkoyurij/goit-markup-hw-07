@@ -1,0 +1,119 @@
+.page-header {
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+.logo {
+  font-family: $logo-font;
+  font-size: 26px;
+  line-height: 31px;
+  color: $main-accent;
+}
+.logo2 {
+  font-family: $logo-font;
+  font-size: 26px;
+  line-height: 31px;
+  color: $black-color-universal;
+}
+.site-nav {
+  display: flex;
+  margin-left: 85px;
+}
+.site-nav {
+  .link {
+    color: $primary-text-color;
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: $primary-text-color;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.site-nav {
+  li {
+    margin-right: 50px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .li {
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
+  }
+  .link {
+    &:hover {
+      color: $main-accent;
+    }
+    &:focus {
+      color: $main-accent;
+    }
+  }
+}
+.auth-nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  transition: fill 250ms $cubic, color 250ms $cubic;
+}
+.auth-nav {
+  .link {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    color: $new-accent;
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.auth-nav {
+  .link {
+    &:hover {
+      color: $main-accent;
+    }
+    &:focus {
+      color: $main-accent;
+    }
+  }
+}
+
+.envelope {
+  margin-right: 10px;
+  transition: fill 250ms $cubic;
+}
+.smartphone {
+  margin-right: 10px;
+  transition: fill 250ms $cubic;
+}
+.contacts-link {
+  display: flex;
+  margin-right: 30px;
+  color: $new-accent;
+  transition-property: color, fill;
+  transition-duration: 250ms;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    color: $main-accent;
+    fill: $main-accent;
+    color: $main-accent;
+  }
+  &:focus {
+    color: $main-accent;
+    fill: $main-accent;
+    color: $pimary-bg-color;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+}

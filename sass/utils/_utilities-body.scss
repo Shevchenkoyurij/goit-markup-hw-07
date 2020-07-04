@@ -1,0 +1,34 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: $main-font;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+  width: 1200px;
+  border-bottom: 1px solid #ececec;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+
+  padding-right: 15px;
+  padding-left: 15px;
+}
