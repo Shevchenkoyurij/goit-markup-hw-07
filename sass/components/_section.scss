@@ -174,3 +174,83 @@ a {
   padding-right: 15px;
   padding-left: 15px;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.team-bgc {
+  background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.team {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  position: center;
+  padding-inline-start: 0px;
+}
+
+.team > .team-member {
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.team > .team-member:not(:last-child) {
+  margin-right: 30px;
+}
+.team-description {
+  padding-top: 30px;
+  padding-bottom: 24px;
+  background-color: $pimary-bg-color;
+}
+.team-title {
+  margin-bottom: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: $primary-text-color;
+}
+
+.team-position {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: $pimary-bg-color;
+}
+.item {
+  cursor: pointer;
+}
+
+.team-social {
+  display: flex;
+  justify-content: center;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.team-social .item:not(:last-child) {
+  margin-right: 10px;
+}
+.team-social .icon-team-social {
+  align-items: center;
+}
+
+.icon-team-social {
+  display: flex;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-team-social:hover,
+.icon-team-social:focus {
+  background-color: $main-accent;
+  --color1: #ffffff;
+}
